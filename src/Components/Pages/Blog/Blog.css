@@ -1,0 +1,10 @@
+#blog {
+    height: 85vh;
+    text-align: center;
+    padding: 15vh 30vh 0 30vh;
+}
+
+#blog h1 {
+    margin-bottom: 5vh;
+}
+

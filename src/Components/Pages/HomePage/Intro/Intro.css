@@ -1,0 +1,18 @@
+#intro {
+    text-align: center;
+    font-family: 'Poppins';
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#intro h1 {
+    font-size: 120px;
+    font-weight: 800;
+}
+
+#intro h2 {
+    font-size: 32px;
+    font-weight: 300;
+}

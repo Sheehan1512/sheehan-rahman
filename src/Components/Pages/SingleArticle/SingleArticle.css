@@ -1,0 +1,15 @@
+#article {
+    height: 85vh;
+    padding: 10vh 30vh 0 30vh;
+    text-align: center;
+    overflow: scroll;
+}
+
+#article h1 {
+    padding-bottom: 10vh;
+}
+
+#article p {
+    padding: 2vh;
+}
+

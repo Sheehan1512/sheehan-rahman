@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Poppins:wght@300;700&family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pridi:wght@200;300;400;500;600;700&display=swap');
+
+:root {
+  --pridi   : 'Pridi', serif;
+  --londrina: 'Londrina Solid', cursive;
+  --white   : #ffffff;
+  --black   : #090808;
+}
+
+/* body {
+  background-color: black;
+  color: snow;
+} */
+
+/* body {
+  width: 100vw;
+} */
+
+#body-content {
+  height: 85vh;
+}
+

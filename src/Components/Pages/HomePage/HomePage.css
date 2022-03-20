@@ -1,0 +1,9 @@
+#sheehan-dp {
+    /* width: 70%; */
+}
+
+#homepage {
+    display: flex;
+    justify-content: space-between;
+    height: 85vh;
+}

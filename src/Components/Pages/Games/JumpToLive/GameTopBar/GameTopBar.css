@@ -1,0 +1,52 @@
+#game-topbar {
+    display: flex;
+    justify-content: space-between;
+    height: 15vh;
+    padding: 2.5vh;
+}
+
+.pink-square {
+    width        : 10vh;
+    height       : 10vh;
+    border-radius: 1vh;
+    background   : linear-gradient(180deg, #FF988F 0%, #E28BFD 100%);
+    display        : inline-flex;
+    justify-content: center;
+    align-items    : center;
+}
+
+.back {
+    left  : 4vw;
+}
+
+.back img {
+    width : 5.5vh;
+    height: 5.5vh;
+    transition: transform .5s ease;
+}
+
+.back:hover img {
+    transform: scale(1.25);
+}
+.score {
+    right: 4vw;
+}
+
+.score h6 {
+    font-family: var(--pridi);
+    font-weight: 700;
+    font-size  : 5vh;
+    color      : var(--white);
+}
+
+#game-topbar h1 {
+    font-family: 'Press Start 2P', cursive;
+    font-weight            : 400;
+    font-size              : 4vh;
+    line-height            : 9.5vh;
+    background             : linear-gradient(90deg, #FF988A 0%, #E18AFF 99.99%, #E18AFF 100%);
+    -webkit-background-clip: text;
+    background-clip        : text;
+    -webkit-text-fill-color: transparent;
+    /* text-fill-color        : transparent; */
+}

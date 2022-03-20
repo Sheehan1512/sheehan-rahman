@@ -1,0 +1,29 @@
+/* Content */
+
+.content {
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content h6 {
+    font-family: var(--pridi);
+    font-weight: 700;
+    font-size  : 4vh;
+    line-height: 6.2vh;
+    color      : #E18AFF;
+    /* display: none; */
+}
+
+.content button {
+    position      : initial;
+    min-width     : 23.5vw;
+    font-family   : var(--pridi);
+    font-weight   : 700;
+    font-size     : 5vh;
+    line-height   : 7.8vh;
+    text-transform: uppercase;
+    color         : var(--white);
+    display: none;
+}
