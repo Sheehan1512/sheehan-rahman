@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Poppins:wght@300;700&family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Open+Sans:wght@400;800&family=Poppins:wght@300;700&family=Press+Start+2P&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Pridi:wght@200;300;400;500;600;700&display=swap');
 
 :root {
@@ -8,16 +8,17 @@
   --black   : #090808;
 }
 
-/* body {
+#body-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: black;
-  color: snow;
-} */
+  padding: 2vh;
+}
 
-/* body {
-  width: 100vw;
-} */
-
-#body-content {
-  height: 85vh;
+#page-content {
+  height: 80vh;
+  display: flex;
+  align-items: center;
 }
 

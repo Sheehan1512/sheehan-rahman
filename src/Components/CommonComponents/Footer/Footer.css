@@ -1,4 +1,4 @@
-#footer {
+/* #footer {
     background-color: #EEE5E9;
     height: 5vh;
     display: flex;
@@ -8,4 +8,41 @@
     border-top: 8px solid #b10136;
     font-family: 'Poppins';
     font-weight: 300;
+} */
+
+footer {
+    height     : 6vh;
+    display    : flex;
+    align-items: center;
+    border     : 2px solid rgba(119, 83, 223, 1);
+    padding    : 0 3vw;
+}
+
+footer p {
+    width         : 50vw;
+    font-family: 'Open Sans', sans-serif;
+    font-weight   : 400;
+    font-size     : 1.5vh;
+    line-height   : 2vh;
+    text-transform: uppercase;
+    color         :lightslategray;
+}
+
+#icon_group {
+    width          : 40vw;
+    display        : flex;
+    justify-content: flex-end;
+    align-items    : center;
+}
+
+#icon_group a {
+    display      : block;
+    width        : 3.5vh;
+    height       : 3.5vh;
+    border-radius: 50%;
+    background   : linear-gradient(156.8deg, #403CED 16.55%, #BD59DE 89.48%, rgba(189, 188, 255, 0) 89.49%);
+}
+
+#icon_group a:not(:last-of-type) {
+    margin-right: 1vw;
 }

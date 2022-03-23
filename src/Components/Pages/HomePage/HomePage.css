@@ -1,9 +1,56 @@
-#sheehan-dp {
-    /* width: 70%; */
-}
+/* #sheehan-dp {
+    width: 70%;
+} */
 
 #homepage {
     display: flex;
-    justify-content: space-between;
-    height: 85vh;
+    /* align-items: center; */
+}
+
+/* #bodyContent {
+    width  : 94vw;
+    height : 75vh;
+    display: flex;
+    padding: 3vh 0;
+} */
+
+#sheehan-images {
+    width              : 30vw;
+    height             : 69vh;
+    margin-right       : 4vw;
+    border             : 2px solid;
+    border-image-slice : 4;
+    border-image-source: linear-gradient(90deg, #6D52DE 0%, #BF59DE 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#sheehan-images img {
+    height: 60vh;
+}
+
+#content {
+    width          : 60vw;
+    height         : 69vh;
+    display        : flex;
+    flex-direction : column;
+    justify-content: center;
+    align-items    : flex-start;
+}
+
+#content h1 {
+    font-weight: 800;
+    font-size  : 11vh;
+    line-height: 11vh;
+    color      : #ffffff;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#content h1 span {
+    background             : linear-gradient(90deg, #5552F5 0.75%, #BD59DE 123.62%, #BD59DE 194.78%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip        : text;
+    /* text-fill-color        : transparent; */
 }

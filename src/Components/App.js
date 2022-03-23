@@ -19,23 +19,25 @@ import NotFoundPage from './Pages/NotFoundPage/NotFoundPage';
 function App() {
   return (
   <BrowserRouter>
-  <>
-    <NavBar /> 
+  <section id="body-container">
     <section id="body-content">
-      <Routes>
-        <Route path="/" element={<HomePage />} exact />
-        <Route path="/about-me" element={<AboutMe />} />
-        <Route path="/blog" element={<Blog />} />
-        <Route path="/article/:name" element={<SingleArticle />} />
-        <Route path="/games" element={<Games />} >
-          {/* <Route path="/jump-to-live" element={<AboutMe />} /> */}
-        </Route>
-        <Route path="/games/jump-to-live" element={<JumpToLive />} />
-        <Route path="*" element={<NotFoundPage />} />
-      </Routes>
+      <NavBar /> 
+      <section id="page-content">
+        <Routes>
+          <Route path="/" element={<HomePage />} exact />
+          <Route path="/about-me" element={<AboutMe />} />
+          <Route path="/blog" element={<Blog />} />
+          <Route path="/article/:name" element={<SingleArticle />} />
+          <Route path="/games" element={<Games />} >
+            {/* <Route path="/jump-to-live" element={<AboutMe />} /> */}
+          </Route>
+          <Route path="/games/jump-to-live" element={<JumpToLive />} />
+          <Route path="*" element={<NotFoundPage />} />
+        </Routes>
+      </section>
+      <Footer />
     </section>
-    <Footer />
-  </>
+  </section>
   </BrowserRouter>
   );
 }
