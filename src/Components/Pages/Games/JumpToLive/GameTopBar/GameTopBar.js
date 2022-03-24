@@ -4,11 +4,11 @@ import BackArrow from '../Assets/back-arrow.svg';
 function GameTopBar() {
   return (
     <section id="game-topbar">
-        <button class="back pink-square">
+        <button className="back pink-square">
             <img src={BackArrow} alt="icon" />
         </button>
         <h1>JUMP TO LIVE</h1>
-        <div class="score pink-square"> 
+        <div className="score pink-square"> 
             <h6 id="scoreboard">0</h6>
         </div>
     </section>

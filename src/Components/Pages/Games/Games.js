@@ -5,7 +5,7 @@ import './Games.css'
 function Games() {
     return(
         <Link to="/games/jump-to-live">
-            <figure class="game-card">
+            <figure className="game-card">
                 <img src={JumpImage} alt="jump"/>
                 <figcaption>Jump to Live</figcaption>
             </figure>

@@ -30,7 +30,7 @@ function JumpToLive() {
             <section id="game">
                 <section id="character" />
                 <section id="car">
-                    <section class="flip-horizontal" id="car-lottie" />
+                    <section className="flip-horizontal" id="car-lottie" />
                 </section>
                 <section id="loss-container">
                     <h1 id="loss"></h1>

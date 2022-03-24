@@ -16,7 +16,7 @@ function NavBar() {
                 <Link to="/blog">BLOG</Link>
                 <Link to="/games">GAMES</Link>
             </section>
-            <button class="authBtn">LOGIN</button>
+            <button className="authBtn">LOGIN</button>
         </nav>
     );
 }
