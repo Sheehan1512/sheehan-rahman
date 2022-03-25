@@ -1,0 +1,41 @@
+#singleBlog {
+    color      : var(--white);
+    font-family: 'Open Sans', sans-serif;
+}
+
+#singleBlog h1 {
+    font-family            : inherit;
+    font-weight            : 900;
+    font-size              : 3vh;
+    line-height            : 4vh;
+    letter-spacing         : 0.03em;
+    text-transform         : uppercase;
+    background             : linear-gradient(90deg, #BD59DE 0%, #6B68F8 100.41%, #5F51DE 113.66%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip        : text;
+    margin-bottom          : 4vh;
+}
+
+#singleBlog p {
+    font-family: inherit;
+    font-weight: 400;
+    font-size  : 2vh;
+    line-height: 4vh;
+    color      : inherit;
+    
+}
+
+#singleBlog img {
+    float: right;
+    margin-left: 2vw;
+    width: 50vh;
+}
+
+#singleBlog {}
+
+#singleBlog {}
+
+#singleBlog {}
+
+#singleBlog {}

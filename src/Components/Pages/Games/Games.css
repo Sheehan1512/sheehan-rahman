@@ -1,10 +1,55 @@
-.gamecard {
-    border: 1px solid black;
-    display: inline-block;
-    padding: 1vw;
-    margin: 1vw;
+#allGames {
+    width : 80vw;
+    margin: 0 auto;
+}
+#allGames a {
+    text-decoration: none;
 }
 
-.gamecard figcaption {
-    text-align: center;
+#allGames h1 {
+    font-family  : 'Open Sans', sans-serif;
+    font-weight  : 700;
+    font-size    : 2.2vh;
+    line-height  : 3vh;
+    color        : var(--white);
+    margin-bottom: 2.2vh;
+    /* text-align: center; */
 }
+
+#allGames .row {
+    display     : flex;
+    flex-wrap   : wrap;
+    margin-left : -.5vw;
+    margin-right: -.5vw;
+}
+
+#allGames .row>* {
+    width        : 16vw;
+    padding-left : .5vw;
+    padding-right: .5vw;
+}
+
+.game_card {
+    position: relative;
+}
+
+.game_card img {
+    width: 100%;
+}
+.game_card .icon {
+    width: 4.5vh;
+    height: 4.5vh;
+    position: absolute;
+    right: 1vw;
+    bottom: 5vh;
+}
+
+.game_card figcaption {
+    font-weight  : 400;
+    font-size    : 1.7vh;
+    line-height  : 2.3vh;
+    color        : var(--white);
+    text-transform: uppercase;
+    margin-top: 1.8vh;
+}
+
